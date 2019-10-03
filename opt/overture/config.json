@@ -1,0 +1,110 @@
+{
+  "BindAddress": ":5353",
+  "DebugHTTPAddress": "127.0.0.1:5555",
+  "PrimaryDNS": [
+    {
+      "Name": "AliDNS",
+      "Address": "223.5.5.5:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "AliDNS2",
+      "Address": "223.6.6.6:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "DNSPod",
+      "Address": "119.29.29.29:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "DNSPod2",
+      "Address": "119.28.28.28:53",
+      "Protocol": "udp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    }
+  ],
+  "AlternativeDNS": [
+    {
+      "Name": "OpenDNS",
+      "Address": "208.67.222.222:443",
+      "Protocol": "tcp",
+      "SOCKS5Address": "",
+      "Timeout": 6,
+      "EDNSClientSubnet": {
+        "Policy": "disable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "google",
+      "Address": "8.8.8.8:53",
+      "Protocol": "tcp",
+      "Timeout": 6,
+      "MinimumTTL": 0,
+      "CacheSize" : 0,
+      "EDNSClientSubnet":{
+        "Policy": "enable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    },
+    {
+      "Name": "google2",
+      "Address": "8.8.4.4:53",
+      "Protocol": "tcp",
+      "Timeout": 6,
+      "MinimumTTL": 0,
+      "CacheSize" : 0,
+      "EDNSClientSubnet":{
+        "Policy": "enable",
+        "ExternalIP": "",
+        "NoCookie": true
+      }
+    }
+  ],
+  "OnlyPrimaryDNS": false,
+  "IPv6UseAlternativeDNS": false,
+  "WhenPrimaryDNSAnswerNoneUse": "PrimaryDNS",
+  "IPNetworkFile": {
+    "Primary": "/opt/overture/china_ip_list.txt",
+    "Alternative": "/opt/overture/ip_network_alternative_sample"
+  },
+  "DomainFile": {
+    "Primary": "/opt/overture/domain_primary_sample",
+    "Alternative": "/opt/overture/gfw_domain_list.txt"
+  },
+  "HostsFile": "/opt/overture/hosts_sample",
+  "MinimumTTL": 0,
+  "DomainTTLFile" : "/opt/overture/domain_ttl_sample",
+  "CacheSize" : 0,
+  "RejectQType": [255]
+}
