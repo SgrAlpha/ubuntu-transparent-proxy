@@ -6,6 +6,6 @@
 * [跳板机网络配置](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E8%B7%B3%E6%9D%BF%E6%9C%BA%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE)
   * [配置 IP](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E9%85%8D%E7%BD%AEIP)
   * [配置 DNS 和 DHCP](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E9%85%8D%E7%BD%AE-DNS-%E5%92%8C-DHCP)
-  * [安装 ss-redir](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-ss-redir)
+  * [安装 shadowsocks libev](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-shadowsocks-libev)
   * [配置透明代理](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E9%85%8D%E7%BD%AE%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86)
   * [解决 DNS 污染问题](https://github.com/SgrAlpha/ubuntu-transparent-proxy/wiki/%E8%A7%A3%E5%86%B3-DNS-%E6%B1%A1%E6%9F%93%E9%97%AE%E9%A2%98)
