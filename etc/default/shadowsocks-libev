@@ -15,7 +15,7 @@ START=yes
 CONFFILE="/etc/shadowsocks-libev/config.json"
 
 # Extra command line arguments
-DAEMON_ARGS="-u --fast-open -b 0.0.0.0"
+DAEMON_ARGS="-u -b 0.0.0.0 --reuse-port"
 
 # User and group to run the server as
 USER=nobody
